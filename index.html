@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Ismail</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="icon" type="image/x-icon" href="/images/Passport piv.jpg">
+    <link rel="stylesheet"
+        href="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.css" />
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://kit.fontawesome.com/f84f445020.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+    <script src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js"></script>
+
+</head>
+
+<body>
+    <div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
+    <nav class="navbar" id="nav-menu">
+        <div class="max-width">
+            <div class="logo"><a href="#">Shaik Ismail</a></div>
+            <ul class="menu">
+                <li><a href="#home" class="menu-btn">Home</a></li>
+                <li><a href="#about" class="menu-btn">About</a></li>
+                <li><a href="#projects" class="menu-btn">Projects</a></li>
+                <!-- <li><a href="#skills" class="menu-btn">Skills</a></li> -->
+                <li><a href="#skills" class="menu-btn">Skills</a></li>
+                <li><a href="#contact" class="menu-btn">Contact</a></li>
+                <li id="resume-button-1"><a id="resume-link-1" download="" href="./images/files/Shaik-Ismail-Resume.pdf"
+                        onclick="resume()" target="_blank" class="nav-link resume">Resume</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- -------------------- home section start -------------------- -->
+    <section class="home nav-link" id="home">
+
+
+        <div class="max-width">
+            <div id="particles-js"></div>
+            <script src="particles.js" class="home"></script>
+            <div class="home-content">
+                <div class="text-1">Hello, my name is</div>
+                <div class="text-2">
+                    < Ismail>
+                </div>
+                <div class="text-3">And I'm a <br> <span class="typing"></span>
+                    <br>
+                    <button class="btn-resume" id="resume-button-2">
+                        <a target="_blank" id="resume-link-2" download="" href="./images/files/Shaik-Ismail-Resume.pdf"
+                            onclick="resume()">Download
+                            CV</a>
+                    </button>
+                </div>
+            </div>
+            <script src="app.js"></script>
+
+        </div>
+
+
+    </section>
+
+    <!-- -------------------- about section start -------------------- -->
+
+    <section class="about section nav-link" id="about">
+        <div class="max-width">
+            <h2 class="title">About me</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <img class="home-img" src="images/Passport piv.jpg" alt="">
+                </div>
+                <div class="column right">
+                    <div class="text"><span class="aboutRaw" id="user-detail-name">I'm Ismail and I'm a</span> <br>
+                        <span class="typing-2"></span>
+                    </div>
+                    <p id="user-detail-intro">With a passion for building scalable and efficient web applications. I
+                        have completed several projects that have helped me build a strong foundation in front-end and
+                        back-end technologies. I'm proficient in working with Node.js, MongoDB, and JavaScript, and I'm
+                        eager to expand my skillset and learn new technologies.I'm excited to leverage my skills and
+                        experience to contribute to the growth of an organization.</p>
+
+                    <!-- <button id="resume-button-2" class="nav-link resume">Download CV</button> -->
+                    <a download="Shaik-Ismail-Resume.pdf" href="./images/files/Shaik-Ismail-Resume.pdf"
+                        onclick="resume()" target="_blank">Download CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- -------------------- Projects section start -------------------- -->
+    <section class="nav-link projects" id="projects">
+        <div class="max-width">
+            <h2 class="title" style="margin-top: -90px;">My Projects</h2>
+            <div class="serv-content">
+                <div class="card project-card">
+                    <div class="box">
+                        <img class="projectImage" src="./images/beautybebo.PNG" alt="" width="100%" height="120%">
+                        <div class="text project-title">Beautybebo Clone</div>
+                        <p class="project-description">An Online platform to purchase beauty products and skin care
+                            products
+                            for every individual which is an individual project executed in 5 days.
+                        </p>
+                        <div class="project-tech-stack techstack">
+                            <img src="https://chiranjeev-thapliyal.vercel.app/svg/javascript.svg" alt="">
+                            <img src="https://chiranjeev-thapliyal.vercel.app/svg/html-5.svg" alt="">
+                            <img src="https://chiranjeev-thapliyal.vercel.app/svg/css3.svg" alt="">
+                        </div>
+                        <div class="sourceCodeBtn">
+                            <a href="" class="project-deployed-link"><button class="liveBtn "
+                                    onclick="window.open('https://thriving-chimera-a60362.netlify.app/','_blank')">See
+                                    Live</button></a>
+                            <a href="" class="project-github-link"><button class="liveBtn "
+                                    onclick="window.open('https://github.com/ShaikIsmail0567/auspicious-sign-3223/tree/main/Header%2CFooter','_blank')">Source
+                                    Code</button></a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="card project-card">
+                    <div class="box">
+                        <img class="projectImage" src="./images/snapdeal.PNG" alt="" width="100%" height="120%">
+                        <div class="text project-title">Snapdeal Clone</div>
+                        <p class="project-description">Snapdeal is an e-commerce company for lifestyle shopping
+                            destinations, which is a collaborative project built by a team of 5 people &
+                            executed in 5 days.</p>
+                        <div class="project-tech-stack techstack">
+                            <img src="https://chiranjeev-thapliyal.vercel.app/svg/javascript.svg" alt="">
+                            <img src="https://chiranjeev-thapliyal.vercel.app/svg/html-5.svg" alt="">
+                            <img src="https://chiranjeev-thapliyal.vercel.app/svg/css3.svg" alt="">
+                        </div>
+                        <div class="sourceCodeBtn">
+                            <button class="liveBtn project-deployed-link"
+                                onclick="window.open('https://zingy-semifreddo-9508cd.netlify.app/','_blank')">See
+                                Live</button>
+                            <button class="liveBtn project-github-link"
+                                onclick="window.open('https://github.com/ShaikIsmail0567/high-fruit-9045','_blank')">Source
+                                Code</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card project-card">
+                    <div class="box">
+                        <img class="projectImage" src="./images/belk.PNG" alt="" width="100%" height="120%">
+                        <div class="text project-title">Belk Clone</div>
+                        <p class="project-description">It's an Shopping Website where any individual can buy clothes ,
+                            built using HTML, CSS
+                            and JavaScript, Which is an individual project.</p>
+                        <div class="project-tech-stack techstack">
+                            <img src="https://chiranjeev-thapliyal.vercel.app/svg/javascript.svg" alt="">
+                            <img src="https://chiranjeev-thapliyal.vercel.app/svg/html-5.svg" alt="">
+                            <img src="https://chiranjeev-thapliyal.vercel.app/svg/css3.svg" alt="">
+                            <img src="https://chiranjeev-thapliyal.vercel.app/svg/mongodb.svg" alt="">
+                        </div>
+                        <div class="sourceCodeBtn">
+                            <button class="liveBtn project-deployed-link"
+                                onclick="window.open('https://belkclone.netlify.app/','_blank')">See Live</button>
+                            <button class="liveBtn project-github-link"
+                                onclick="window.open('https://github.com/ShaikIsmail0567/defective-week-6965','_blank')">Source
+                                Code</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card project-card">
+                    <div class="box">
+                        <img class="projectImage" src="./images/airmeet.PNG" alt="" width="100%" height="120%">
+                        <div class="text project-title">AirMeet</div>
+                        <p class="project-description">This is a real-time video chat app that allows users to create
+                            video chat rooms and communicate with other users in real-time.</p>
+                        <div class="project-tech-stack techstack">
+                            <img src="https://chiranjeev-thapliyal.vercel.app/svg/javascript.svg" alt="">
+                            <img src="https://chiranjeev-thapliyal.vercel.app/svg/html-5.svg" alt="">
+                            <img src="https://chiranjeev-thapliyal.vercel.app/svg/css3.svg" alt="">
+                            <img src="https://chiranjeev-thapliyal.vercel.app/svg/mongodb.svg" alt="">
+                            <img src="data:image/png;base64,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"
+                                alt="">
+                            <img src="data:image/png;base64,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"
+                                alt="">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXGvkzmPgEKpt4pSohVd38ScVM7HJcKxZiTQ&usqp=CAU"
+                                alt="">
+                        </div>
+                        <div class="sourceCodeBtn">
+                            <button class="liveBtn project-deployed-link"
+                                onclick="window.open('https://airmeetup.netlify.app/','_blank')">See Live</button>
+                            <button class="liveBtn project-github-link"
+                                onclick="window.open('https://github.com/ShaikIsmail0567/boundless-sleep-6032','_blank')">Source
+                                Code</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- --------------------- skills section ---------------------- -->
+
+    <section class="skills nav-link" id="skills">
+        <div class="max-width">
+            <h2 class="title">Skills</h2>
+            <div class="tools">
+                <div class="tool skills-card">
+                    <img class="skills-card-img" src="https://chiranjeev-thapliyal.vercel.app/svg/html-5.svg" alt="">
+                    <h1 class="skills-card-name">HTML5</h1>
+                </div>
+                <div class="tool skills-card">
+                    <img class="skills-card-img" src="https://chiranjeev-thapliyal.vercel.app/svg/css3.svg" alt="">
+                    <h1 class="skills-card-name">CSS3</h1>
+                </div>
+                <div class="tool skills-card">
+                    <img class="skills-card-img" src="https://chiranjeev-thapliyal.vercel.app/svg/javascript.svg"
+                        alt="">
+                    <h1 class="skills-card-name">JavaScript</h1>
+                </div>
+                <div class="tool skills-card">
+                    <img class="skills-card-img" src="./images/logo/express-logo.png" alt="">
+                    <h1 class="skills-card-name">ExpressJS</h1>
+                </div>
+                <div class="tool skills-card">
+                    <img class="skills-card-img" src="https://chiranjeev-thapliyal.vercel.app/svg/nodejs.svg" alt="">
+                    <h1 class="skills-card-name">NodeJS</h1>
+                </div>
+                <div class="tool skills-card">
+                    <img class="skills-card-img" src="https://chiranjeev-thapliyal.vercel.app/svg/mongodb.svg" alt="">
+                    <h1 class="skills-card-name">MongoDB</h1>
+                </div>
+                <div class="tool skills-card">
+                    <img class="skills-card-img" src="https://chiranjeev-thapliyal.vercel.app/svg/git.svg" alt="">
+                    <h1 class="skills-card-name">GIT</h1>
+                </div>
+                <div class="tool skills-card">
+                    <img class="skills-card-img" src="./images/logo/socketio-logo.png" alt="">
+                    <h1 class="skills-card-name">Socket.io</h1>
+                </div>
+                <div class="tool skills-card">
+                    <img class="skills-card-img" src="./images/logo/redis_icon.svg" alt="">
+                    <h1 class="skills-card-name">Redis</h1>
+                </div>
+                <div class="tool aws skills-card">
+                    <img class="skills-card-img" src="./images/logo/aws-logo.png" alt="">
+                    <h1 class="skills-card-name">AWS</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- --------------------- git calendar ----------------------- -->
+
+    <section class="github">
+        <h2 class="title">Github Stats</h2>
+
+
+        <div class="calendar react-activity-calendar">
+            Loading the data just for you.
+        </div>
+
+        <div class="git-box">
+            <div>
+                <img id="github-streak-stats"
+                    src="https://github-readme-streak-stats.herokuapp.com?user=ShaikIsmail0567&theme=radical&hide_border=true&border_radius=6.5&date_format=M%20j%5B%2C%20Y%5D"
+                    alt="streakstat" />
+            </div>
+            <div>
+                <img id="github-top-langs"
+                    src="https://github-readme-stats.vercel.app/api/top-langs/?username=ShaikIsmail0567&lans-count=3&show_icons=true&theme=radical"
+                    alt="top_languages" />
+            </div>
+            <div>
+                <img id="github-stats-card"
+                    src="https://github-readme-stats.vercel.app/api?username=ShaikIsmail0567&count_private=true&theme=radical"
+                    alt="stat-card" />
+            </div>
+        </div>
+    </section>
+
+    <!-- contact section start -->
+    <section class="contact nav-link" id="contact">
+        <div class="max-width">
+            <h2 class="title">Contact me</h2>
+            <div class="contact-content">
+                <div class="column left">
+                    <!-- <div class="text">Get in Touch</div> -->
+
+                    <div class="icons">
+                        <div class="row">
+                            <i class="fa-brands fa-github"></i>
+                            <div class="info">
+                                <div class="sub-title"><a id="contact-github" class="sub-title1" target="_blank"
+                                        href="https://github.com/ShaikIsmail0567">github.com/<b>ShaikIsmail0567</b></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fa-brands fa-linkedin"></i>
+                            <div class="info">
+                                <div class="sub-title"><a id="contact-linkedin" class="sub-title1" target="_blank"
+                                        href="https://www.linkedin.com/in/shaik-ismail-791627168/">linkedin.com/in/<b>Shaik
+                                            Ismail</b></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fa-solid fa-envelope"></i>
+                            <div class="info">
+                                <div id="contact-email" class="sub-title1" onclick="myFunction()">
+                                    <b>sk.mdismail056</b>@gmail.com
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fa-solid fa-phone"></i>
+                            <div class="info">
+                                <div id="contact-phone" class="sub-title1"> <b>+91 7010181741</b></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column right">
+                    <div class="text">Message me</div>
+                    <form action="https://formsubmit.co/128fbd2c7373415728f7d9514c5a2aa7" method="POST">
+                        <div class="fields">
+                            <div class="field name">
+                                <input type="text" name="name" placeholder="Name" required>
+                            </div>
+                            <div class="field email">
+                                <input type="email" name="email" placeholder="Email" required>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <input type="text" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="field textarea">
+                            <textarea cols="30" rows="10" name="content" placeholder="Message.." required></textarea>
+                        </div>
+                        <div class="button-area">
+                            <button type="submit">Send message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer section start -->
+    <footer>
+        <span>&#169; Made By <i class="fa-solid fa-heart-pulse"></i> Ismail</span>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+<script>
+    function myFunction() {
+        window.location.href = "mailto:sk.mdismail056@gmail.com";
+    }
+    function resume() {
+        window.open("https://drive.google.com/file/d/1tVOrrojEVW2RQSjdCu4rH2ruCTR_oamn/view?usp=share_link", "_blank")
+    }
+
+//     document.getElementById("resume-button-2").addEventListener("click", function() {
+//   var link = document.createElement("a");
+//   link.href = "./images/files/Shaik-Ismail-Resume.pdf";
+//   link.target = "_blank";
+//   link.download = "Shaik-Ismail-Resume.pdf";
+//   document.body.appendChild(link);
+//   link.click();
+//   window.open("https://drive.google.com/file/d/1tVOrrojEVW2RQSjdCu4rH2ruCTR_oamn/view?usp=share_link", "_blank")
+//   document.body.removeChild(link);
+// });
+
+</script>
+
+<script>
+    new GitHubCalendar(".calendar", "ShaikIsmail0567");
+    new GitHubCalendar(".calendar", "ShaikIsmail0567", { responsive: true });
+</script>
